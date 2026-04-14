@@ -50,20 +50,28 @@ cp .env.example .env
 4. Run the agent
 python src/research_agent.py
 
-Enter your research query: latest news about cancer
-
+python research_agent.py
+Enter your research query: Latest Cancer News
 [search] Searching the web...
 [search] Got 5 results
 [store] Storing results in ChromaDB...
-[store] Stored 5 new documents (total: 5)
+[store] Stored 5 new documents (total: 45)
 [retrieve] Retrieving relevant chunks...
 [retrieve] Retrieved 3 chunks
 [synthesize] Generating final answer...
 
 ==================================================
 FINAL ANSWER:
-**Latest Cancer News Update**
-- Mayo Clinic researchers are investigating a novel radiopharmaceutical therapy...
-- GSK's targeted cancer therapy shows blockbuster potential...
-- Gilead agrees to buy Tubulis for up to $5 billion for cancer research...
+**Latest Cancer News - March 2026**
+
+According to the latest information available from News-Medical, researchers at Mayo Clinic are investigating a novel radiopharmaceutical therapy for breast cancer. A clinical trial will be conducted to study a potent new treatment, aiming to improve outcomes for breast cancer patients.
+
+**Key Details:**
+
+- **Area of Research:** Breast Cancer
+- **New Approach:** Radiopharmaceutical therapy
+- **Clinical Trial:** Currently underway (as of March 13, 2026)
+- **Objective:** To evaluate the efficacy and safety of the new treatment
+
+We suggest staying updated on this emerging treatment and any future developments, as more information becomes available.
 ==================================================
